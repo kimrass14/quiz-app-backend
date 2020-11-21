@@ -190,3 +190,1091 @@ Processing by CategoriesController#index as */*
 Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 1.6ms | Allocations: 3632)
 
 
+Started GET "/categories" for ::1 at 2020-11-20 14:41:05 -0600
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 46ms (Views: 0.2ms | ActiveRecord: 12.0ms | Allocations: 15934)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 14:41:32 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 0.1ms | ActiveRecord: 1.2ms | Allocations: 3658)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 14:41:32 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 14:42:29 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 1.0ms | Allocations: 3655)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 14:42:29 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.7ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 14:45:36 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (1.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (2.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 30ms (Views: 1.2ms | ActiveRecord: 4.7ms | Allocations: 3655)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 14:45:36 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (1.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (5.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 0.1ms | ActiveRecord: 6.6ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 14:50:08 -0600
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 0.7ms | ActiveRecord: 1.3ms | Allocations: 3654)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 14:57:47 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (9.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (1.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 48ms (Views: 2.7ms | ActiveRecord: 11.5ms | Allocations: 3757)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:06:53 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.9ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 41ms (Views: 0.4ms | ActiveRecord: 2.9ms | Allocations: 3758)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:07:20 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (2.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.9ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 47ms (Views: 0.1ms | ActiveRecord: 4.0ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:08:15 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (1.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 35ms (Views: 0.2ms | ActiveRecord: 2.5ms | Allocations: 3636)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:08:21 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (6.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 43ms (Views: 0.1ms | ActiveRecord: 6.8ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:09:07 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (2.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 46ms (Views: 1.0ms | ActiveRecord: 3.2ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:09:34 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 89ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 3640)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:09:38 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:11:18 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 30ms (Views: 0.7ms | ActiveRecord: 1.3ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:11:58 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 27ms (Views: 0.9ms | ActiveRecord: 1.2ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:14:28 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (1.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (1.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 48ms (Views: 0.5ms | ActiveRecord: 3.1ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:36:54 -0600
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (2.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 60ms (Views: 0.2ms | ActiveRecord: 22.7ms | Allocations: 15935)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:37:18 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (2.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 27ms (Views: 0.1ms | ActiveRecord: 3.5ms | Allocations: 3657)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:38:32 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 1.7ms | Allocations: 3655)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:38:33 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.9ms | Allocations: 3655)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:41:03 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (1.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 26ms (Views: 0.8ms | ActiveRecord: 2.1ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:42:11 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 1.0ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:44:53 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 3655)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:45:27 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.8ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 1.4ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:45:32 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 3636)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:45:33 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 0.7ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:45:36 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 1.2ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:45:39 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:47:43 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:47:57 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 0.7ms | Allocations: 3636)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:47:58 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 1.1ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:48:00 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 29ms (Views: 0.2ms | ActiveRecord: 1.1ms | Allocations: 3636)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:48:01 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 1.1ms | Allocations: 3637)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:48:16 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.7ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:48:19 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.7ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:48:27 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:49:01 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 0.7ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:49:17 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.6ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:51:01 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:51:28 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (1.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 0.1ms | ActiveRecord: 2.2ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:51:29 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (2.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 2.5ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:51:33 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:51:40 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 0.8ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:52:01 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 1.0ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 15:52:28 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 0.2ms | ActiveRecord: 0.8ms | Allocations: 3636)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 16:17:23 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (1.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (1.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 3.0ms | Allocations: 3758)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 16:21:39 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 56ms (Views: 1.8ms | ActiveRecord: 1.6ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 16:25:03 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (3.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (4.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (1.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 68ms (Views: 0.1ms | ActiveRecord: 8.2ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 16:35:44 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (1.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 50ms (Views: 0.6ms | ActiveRecord: 2.4ms | Allocations: 3758)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 16:35:48 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 0.1ms | ActiveRecord: 1.3ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 16:35:57 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (3.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (1.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (1.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 28ms (Views: 0.2ms | ActiveRecord: 6.3ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 16:37:12 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 0.2ms | ActiveRecord: 1.0ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 16:37:20 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 27ms (Views: 0.1ms | ActiveRecord: 1.2ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 16:46:49 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (1.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 40ms (Views: 0.4ms | ActiveRecord: 2.5ms | Allocations: 3757)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 16:48:05 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (1.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (1.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 41ms (Views: 0.7ms | ActiveRecord: 3.2ms | Allocations: 3635)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 16:48:44 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (1.0ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 40ms (Views: 0.7ms | ActiveRecord: 2.0ms | Allocations: 3636)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 16:48:49 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (4.7ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (1.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 134ms (Views: 0.1ms | ActiveRecord: 6.6ms | Allocations: 3637)
+
+
+Started GET "/categories" for ::1 at 2020-11-20 16:52:08 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.2ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 35ms (Views: 0.5ms | ActiveRecord: 1.6ms | Allocations: 3636)
+
+
+Started GET "/categories" for ::1 at 2020-11-21 11:25:48 -0600
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (4.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 69ms (Views: 0.2ms | ActiveRecord: 32.8ms | Allocations: 15935)
+
+
+Started DELETE "/categories/1" for ::1 at 2020-11-21 11:26:11 -0600
+Processing by CategoriesController#destroy as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:44:in `set_category'
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:38:in `destroy'
+  [1m[36mCategory Destroy (3.6ms)[0m  [1m[31mDELETE FROM "categories" WHERE "categories"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/categories_controller.rb:38:in `destroy'
+  [1m[35m (19.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/categories_controller.rb:38:in `destroy'
+Completed 204 No Content in 42ms (ActiveRecord: 24.3ms | Allocations: 2594)
+
+
+Started GET "/categories" for ::1 at 2020-11-21 11:26:22 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (1.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 0.1ms | ActiveRecord: 2.1ms | Allocations: 2179)
+
+
+Started DELETE "/categories/2" for ::1 at 2020-11-21 11:26:33 -0600
+Processing by CategoriesController#destroy as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:44:in `set_category'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:38:in `destroy'
+  [1m[36mCategory Destroy (0.3ms)[0m  [1m[31mDELETE FROM "categories" WHERE "categories"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/categories_controller.rb:38:in `destroy'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/categories_controller.rb:38:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.4ms | Allocations: 2408)
+
+
+Started GET "/categories" for ::1 at 2020-11-21 11:26:38 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms | Allocations: 704)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5411091776965875735)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to RemoveUserAnswerFromQuestions (20201121173118)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(5411091776965875735)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5411091776965875735)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to RemoveUserAnswerFromQuestions (20201121173118)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (21.1ms)[0m  [1m[35mALTER TABLE "questions" DROP COLUMN "user_answer"[0m
+  [1m[36mprimary::SchemaMigration Create (4.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201121173118"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(5411091776965875735)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5411091776965875735)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddBackUserAnswerToQuestionsNoDefault (20201121173940)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (6.8ms)[0m  [1m[35mALTER TABLE "questions" ADD "user_answer" character varying[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201121173940"]]
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(5411091776965875735)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Create (7.2ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Science"], ["created_at", "2020-11-21 18:05:17.043984"], ["updated_at", "2020-11-21 18:05:17.043984"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Create (0.5ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Geography"], ["created_at", "2020-11-21 18:05:17.056549"], ["updated_at", "2020-11-21 18:05:17.056549"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+Started GET "/" for ::1 at 2020-11-21 12:05:55 -0600
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kim/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kim/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.9ms | Allocations: 294)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 1537)
+
+
+Started GET "/categories" for ::1 at 2020-11-21 12:06:00 -0600
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (1.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (1.9ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 3]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 4]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 40ms (Views: 0.1ms | ActiveRecord: 12.1ms | Allocations: 9824)
+
+
+Started GET "/categories" for ::1 at 2020-11-21 12:08:39 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 3]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 4]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 0.5ms | ActiveRecord: 1.7ms | Allocations: 2624)
+
+
+Started PUT "/categories/3" for ::1 at 2020-11-21 12:09:18 -0600
+Processing by CategoriesController#update as */*
+  Parameters: {"id"=>"3", "name"=>"Science", "created"=>"custom", "created_at"=>"2020-11-21T18:05:17.043Z", "updated_at"=>"2020-11-21T18:05:17.043Z", "questions"=>[], "category"=>{"id"=>"3", "name"=>"Science", "created"=>"custom", "created_at"=>"2020-11-21T18:05:17.043Z", "updated_at"=>"2020-11-21T18:05:17.043Z"}}
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:44:in `set_category'
+[31mUnpermitted parameters: :id, :created, :created_at, :updated_at[0m
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 1310)
+
+
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (5.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (87.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "quiz_app_backend_development"[0m
+  [1m[35m (42.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "quiz_app_backend_test"[0m
+  [1m[35m (211.4ms)[0m  [1m[35mCREATE DATABASE "quiz_app_backend_development" ENCODING = 'unicode'[0m
+  [1m[35m (86.3ms)[0m  [1m[35mCREATE DATABASE "quiz_app_backend_test" ENCODING = 'unicode'[0m
+  [1m[35mSQL (10.5ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (4.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "categories" CASCADE[0m
+  [1m[35m (90.0ms)[0m  [1m[35mCREATE TABLE "categories" ("id" bigserial primary key, "name" character varying, "created" character varying DEFAULT 'custom', "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE IF EXISTS "questions" CASCADE[0m
+  [1m[35m (8.5ms)[0m  [1m[35mCREATE TABLE "questions" ("id" bigserial primary key, "quiz_question" character varying, "correct_answer" character varying, "incorrect_answer_1" character varying, "incorrect_answer_2" character varying, "incorrect_answer_3" character varying, "category_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "user_answer" character varying)[0m
+  [1m[35m (4.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20201121173940)[0m
+  [1m[35m (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20201119205429),
+(20201119212303),
+(20201119212433),
+(20201119213322),
+(20201119215714),
+(20201119222151),
+(20201121173118);
+
+[0m
+  [1m[35m (3.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-11-21 18:12:17.417634"], ["updated_at", "2020-11-21 18:12:17.417634"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "43a62760071b17d5b9575aa9fcf71bbb3371ea5f"], ["created_at", "2020-11-21 18:12:17.425848"], ["updated_at", "2020-11-21 18:12:17.425848"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "categories" CASCADE[0m
+  [1m[35m (10.5ms)[0m  [1m[35mCREATE TABLE "categories" ("id" bigserial primary key, "name" character varying, "created" character varying DEFAULT 'custom', "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "questions" CASCADE[0m
+  [1m[35m (3.5ms)[0m  [1m[35mCREATE TABLE "questions" ("id" bigserial primary key, "quiz_question" character varying, "correct_answer" character varying, "incorrect_answer_1" character varying, "incorrect_answer_2" character varying, "incorrect_answer_3" character varying, "category_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, "user_answer" character varying)[0m
+  [1m[35m (3.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20201121173940)[0m
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20201119205429),
+(20201119212303),
+(20201119212433),
+(20201119213322),
+(20201119215714),
+(20201119222151),
+(20201121173118);
+
+[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-11-21 18:12:17.497291"], ["updated_at", "2020-11-21 18:12:17.497291"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Update (1.4ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2020-11-21 18:12:17.503299"], ["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "schema_sha1"], ["value", "43a62760071b17d5b9575aa9fcf71bbb3371ea5f"], ["created_at", "2020-11-21 18:12:17.509696"], ["updated_at", "2020-11-21 18:12:17.509696"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Create (1.0ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Science"], ["created_at", "2020-11-21 18:12:17.564897"], ["updated_at", "2020-11-21 18:12:17.564897"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Create (0.3ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Geography"], ["created_at", "2020-11-21 18:12:17.570089"], ["updated_at", "2020-11-21 18:12:17.570089"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mQuestion Create (1.0ms)[0m  [1m[32mINSERT INTO "questions" ("quiz_question", "correct_answer", "incorrect_answer_1", "incorrect_answer_2", "incorrect_answer_3", "category_id", "created_at", "updated_at", "user_answer") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["quiz_question", "Which Apollo mission was the first one to land on the Moon?"], ["correct_answer", "Apollo 11"], ["incorrect_answer_1", "Apollo 10"], ["incorrect_answer_2", "Apollo 9"], ["incorrect_answer_3", "Apollo 13"], ["category_id", 1], ["created_at", "2020-11-21 18:12:17.607887"], ["updated_at", "2020-11-21 18:12:17.607887"], ["user_answer", "incorrect"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mQuestion Create (0.4ms)[0m  [1m[32mINSERT INTO "questions" ("quiz_question", "correct_answer", "incorrect_answer_1", "incorrect_answer_2", "incorrect_answer_3", "category_id", "created_at", "updated_at", "user_answer") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["quiz_question", "Which type of rock is created by intense heat AND pressure?"], ["correct_answer", "Metamorphic"], ["incorrect_answer_1", "Sedimentary"], ["incorrect_answer_2", "Igneous"], ["incorrect_answer_3", "Diamond"], ["category_id", 1], ["created_at", "2020-11-21 18:12:17.615311"], ["updated_at", "2020-11-21 18:12:17.615311"], ["user_answer", "incorrect"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mQuestion Create (0.3ms)[0m  [1m[32mINSERT INTO "questions" ("quiz_question", "correct_answer", "incorrect_answer_1", "incorrect_answer_2", "incorrect_answer_3", "category_id", "created_at", "updated_at", "user_answer") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["quiz_question", "This element, when overcome with extreme heat and pressure, creates diamonds."], ["correct_answer", "Carbon"], ["incorrect_answer_1", "Nitrogen"], ["incorrect_answer_2", "Oxygen"], ["incorrect_answer_3", "Hydrogen"], ["category_id", 1], ["created_at", "2020-11-21 18:12:17.621343"], ["updated_at", "2020-11-21 18:12:17.621343"], ["user_answer", "incorrect"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mQuestion Create (0.3ms)[0m  [1m[32mINSERT INTO "questions" ("quiz_question", "correct_answer", "incorrect_answer_1", "incorrect_answer_2", "incorrect_answer_3", "category_id", "created_at", "updated_at", "user_answer") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["quiz_question", "What country is the second largest in the world by area?"], ["correct_answer", "Canada"], ["incorrect_answer_1", "Russia"], ["incorrect_answer_2", "China"], ["incorrect_answer_3", "USA"], ["category_id", 2], ["created_at", "2020-11-21 18:12:17.626721"], ["updated_at", "2020-11-21 18:12:17.626721"], ["user_answer", "incorrect"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mQuestion Create (0.4ms)[0m  [1m[32mINSERT INTO "questions" ("quiz_question", "correct_answer", "incorrect_answer_1", "incorrect_answer_2", "incorrect_answer_3", "category_id", "created_at", "updated_at", "user_answer") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["quiz_question", "What is the capital of Jamaica?"], ["correct_answer", "Kingston"], ["incorrect_answer_1", "San Juan"], ["incorrect_answer_2", "Port-au-Prince"], ["incorrect_answer_3", "Bridgetown"], ["category_id", 2], ["created_at", "2020-11-21 18:12:17.632143"], ["updated_at", "2020-11-21 18:12:17.632143"], ["user_answer", "incorrect"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mQuestion Create (0.3ms)[0m  [1m[32mINSERT INTO "questions" ("quiz_question", "correct_answer", "incorrect_answer_1", "incorrect_answer_2", "incorrect_answer_3", "category_id", "created_at", "updated_at", "user_answer") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["quiz_question", "Which UK country features a dragon on their flag?"], ["correct_answer", "Wales"], ["incorrect_answer_1", "England"], ["incorrect_answer_2", "North Ireland"], ["incorrect_answer_3", "Scotland"], ["category_id", 2], ["created_at", "2020-11-21 18:12:17.637867"], ["updated_at", "2020-11-21 18:12:17.637867"], ["user_answer", "incorrect"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5411091776965875735)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(5411091776965875735)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/categories" for ::1 at 2020-11-21 12:13:29 -0600
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 45ms (Views: 0.1ms | ActiveRecord: 11.9ms | Allocations: 15927)
+
+
+Started GET "/categories" for ::1 at 2020-11-21 12:17:46 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (6.9ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 24ms (Views: 0.3ms | ActiveRecord: 8.3ms | Allocations: 3658)
+
+
+Started PUT "/categories/1/questions/1" for ::1 at 2020-11-21 12:19:03 -0600
+Processing by QuestionsController#update as */*
+  Parameters: {"id"=>"1", "quiz_question"=>"Which Apollo mission was the first one to land on the Moon?", "correct_answer"=>"Apollo 11", "incorrect_answer_1"=>"Apollo 10", "incorrect_answer_2"=>"Apollo 9", "incorrect_answer_3"=>"Apollo 13", "category_id"=>"1", "created_at"=>"2020-11-21T18:12:17.607Z", "updated_at"=>"2020-11-21T18:12:17.607Z", "user_answer"=>"correct", "question"=>{"id"=>"1", "quiz_question"=>"Which Apollo mission was the first one to land on the Moon?", "correct_answer"=>"Apollo 11", "incorrect_answer_1"=>"Apollo 10", "incorrect_answer_2"=>"Apollo 9", "incorrect_answer_3"=>"Apollo 13", "category_id"=>"1", "created_at"=>"2020-11-21T18:12:17.607Z", "updated_at"=>"2020-11-21T18:12:17.607Z", "user_answer"=>"correct"}}
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:45:in `set_question'
+[31mUnpermitted parameters: :id, :created_at, :updated_at, :user_answer[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+Completed 200 OK in 16ms (Views: 1.2ms | ActiveRecord: 1.4ms | Allocations: 4257)
+
+
+Started GET "/categories" for ::1 at 2020-11-21 12:19:38 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 8ms (Views: 0.1ms | ActiveRecord: 1.0ms | Allocations: 3655)
+
+
+Started PUT "/categories/1/questions/1" for ::1 at 2020-11-21 12:21:18 -0600
+Processing by QuestionsController#update as */*
+  Parameters: {"id"=>"1", "quiz_question"=>"Which Apollo mission was the first one to land on the Moon?", "correct_answer"=>"Apollo 11", "incorrect_answer_1"=>"Apollo 10", "incorrect_answer_2"=>"Apollo 9", "incorrect_answer_3"=>"Apollo 13", "category_id"=>"1", "created_at"=>"2020-11-21T18:12:17.607Z", "updated_at"=>"2020-11-21T18:12:17.607Z", "user_answer"=>"correct", "question"=>{"id"=>"1", "quiz_question"=>"Which Apollo mission was the first one to land on the Moon?", "correct_answer"=>"Apollo 11", "incorrect_answer_1"=>"Apollo 10", "incorrect_answer_2"=>"Apollo 9", "incorrect_answer_3"=>"Apollo 13", "category_id"=>"1", "created_at"=>"2020-11-21T18:12:17.607Z", "updated_at"=>"2020-11-21T18:12:17.607Z", "user_answer"=>"correct"}}
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:45:in `set_question'
+[31mUnpermitted parameters: :id, :created_at, :updated_at, :user_answer[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[36mCategory Load (1.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+Completed 200 OK in 23ms (Views: 0.3ms | ActiveRecord: 2.2ms | Allocations: 3753)
+
+
+Started PUT "/categories/1/questions/1" for ::1 at 2020-11-21 12:21:41 -0600
+Processing by QuestionsController#update as */*
+  Parameters: {"id"=>"1", "quiz_question"=>"Which Apollo mission was the first one to land on the Moon?", "correct_answer"=>"Apollo 11", "incorrect_answer_1"=>"Apollo 10", "incorrect_answer_2"=>"Apollo 9", "incorrect_answer_3"=>"Apollo 133", "category_id"=>"1", "created_at"=>"2020-11-21T18:12:17.607Z", "updated_at"=>"2020-11-21T18:12:17.607Z", "user_answer"=>"correct", "question"=>{"id"=>"1", "quiz_question"=>"Which Apollo mission was the first one to land on the Moon?", "correct_answer"=>"Apollo 11", "incorrect_answer_1"=>"Apollo 10", "incorrect_answer_2"=>"Apollo 9", "incorrect_answer_3"=>"Apollo 133", "category_id"=>"1", "created_at"=>"2020-11-21T18:12:17.607Z", "updated_at"=>"2020-11-21T18:12:17.607Z", "user_answer"=>"correct"}}
+  [1m[36mQuestion Load (1.1ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:45:in `set_question'
+[31mUnpermitted parameters: :id, :created_at, :updated_at, :user_answer[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[36mQuestion Update (5.8ms)[0m  [1m[33mUPDATE "questions" SET "incorrect_answer_3" = $1, "updated_at" = $2 WHERE "questions"."id" = $3[0m  [["incorrect_answer_3", "Apollo 133"], ["updated_at", "2020-11-21 18:21:41.832211"], ["id", 1]]
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[35m (8.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+Completed 200 OK in 33ms (Views: 0.3ms | ActiveRecord: 16.0ms | Allocations: 4636)
+
+
+Started PUT "/categories/1/questions/1" for ::1 at 2020-11-21 12:22:05 -0600
+Processing by QuestionsController#update as */*
+  Parameters: {"id"=>"1", "quiz_question"=>"Which Apollo mission was the first one to land on the Moon?", "correct_answer"=>"Apollo 11", "incorrect_answer_1"=>"Apollo 10", "incorrect_answer_2"=>"Apollo 9", "incorrect_answer_3"=>"Apollo 13", "category_id"=>"1", "created_at"=>"2020-11-21T18:12:17.607Z", "updated_at"=>"2020-11-21T18:12:17.607Z", "user_answer"=>"correct", "question"=>{"id"=>"1", "quiz_question"=>"Which Apollo mission was the first one to land on the Moon?", "correct_answer"=>"Apollo 11", "incorrect_answer_1"=>"Apollo 10", "incorrect_answer_2"=>"Apollo 9", "incorrect_answer_3"=>"Apollo 13", "category_id"=>"1", "created_at"=>"2020-11-21T18:12:17.607Z", "updated_at"=>"2020-11-21T18:12:17.607Z", "user_answer"=>"correct"}}
+  [1m[36mQuestion Load (2.6ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:45:in `set_question'
+[31mUnpermitted parameters: :id, :created_at, :updated_at, :user_answer[0m
+  [1m[35m (2.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[36mCategory Load (2.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[36mQuestion Update (4.0ms)[0m  [1m[33mUPDATE "questions" SET "incorrect_answer_3" = $1, "updated_at" = $2 WHERE "questions"."id" = $3[0m  [["incorrect_answer_3", "Apollo 13"], ["updated_at", "2020-11-21 18:22:05.533737"], ["id", 1]]
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+Completed 200 OK in 37ms (Views: 4.6ms | ActiveRecord: 11.5ms | Allocations: 4572)
+
+
+Started GET "/categories" for ::1 at 2020-11-21 12:27:54 -0600
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (1.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.5ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 74ms (Views: 0.2ms | ActiveRecord: 21.2ms | Allocations: 15929)
+
+
+Started PUT "/categories/1/questions/1" for ::1 at 2020-11-21 12:28:46 -0600
+Processing by QuestionsController#update as */*
+  Parameters: {"id"=>"1", "quiz_question"=>"Which Apollo mission was the first one to land on the Moon?", "correct_answer"=>"Apollo 11", "incorrect_answer_1"=>"Apollo 10", "incorrect_answer_2"=>"Apollo 9", "incorrect_answer_3"=>"Apollo 13", "category_id"=>"1", "created_at"=>"2020-11-21T18:12:17.607Z", "updated_at"=>"2020-11-21T18:22:05.533Z", "user_answer"=>"correct", "question"=>{"id"=>"1", "quiz_question"=>"Which Apollo mission was the first one to land on the Moon?", "correct_answer"=>"Apollo 11", "incorrect_answer_1"=>"Apollo 10", "incorrect_answer_2"=>"Apollo 9", "incorrect_answer_3"=>"Apollo 13", "category_id"=>"1", "created_at"=>"2020-11-21T18:12:17.607Z", "updated_at"=>"2020-11-21T18:22:05.533Z", "user_answer"=>"correct"}}
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:45:in `set_question'
+[31mUnpermitted parameters: :id, :created_at, :updated_at[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[36mQuestion Update (0.7ms)[0m  [1m[33mUPDATE "questions" SET "user_answer" = $1, "updated_at" = $2 WHERE "questions"."id" = $3[0m  [["user_answer", "correct"], ["updated_at", "2020-11-21 18:28:46.359563"], ["id", 1]]
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[35m (10.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+Completed 200 OK in 21ms (Views: 0.3ms | ActiveRecord: 12.3ms | Allocations: 5139)
+
+
+Started GET "/categories" for ::1 at 2020-11-21 12:28:51 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 1.0ms | Allocations: 3655)
+
+
+Started GET "/categories" for ::1 at 2020-11-21 12:29:36 -0600
+Processing by CategoriesController#index as */*
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.3ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 0.1ms | ActiveRecord: 1.1ms | Allocations: 3635)
+
+
+Started PUT "/categories/1/questions/2" for ::1 at 2020-11-21 12:29:54 -0600
+Processing by QuestionsController#update as */*
+  Parameters: {"id"=>"2", "quiz_question"=>"Which type of rock is created by intense heat AND pressure?", "correct_answer"=>"Metamorphic", "incorrect_answer_1"=>"Sedimentary", "incorrect_answer_2"=>"Igneous", "incorrect_answer_3"=>"Diamond", "category_id"=>"1", "created_at"=>"2020-11-21T18:12:17.615Z", "updated_at"=>"2020-11-21T18:12:17.615Z", "user_answer"=>"correct", "question"=>{"id"=>"2", "quiz_question"=>"Which type of rock is created by intense heat AND pressure?", "correct_answer"=>"Metamorphic", "incorrect_answer_1"=>"Sedimentary", "incorrect_answer_2"=>"Igneous", "incorrect_answer_3"=>"Diamond", "category_id"=>"1", "created_at"=>"2020-11-21T18:12:17.615Z", "updated_at"=>"2020-11-21T18:12:17.615Z", "user_answer"=>"correct"}}
+  [1m[36mQuestion Load (0.4ms)[0m  [1m[34mSELECT "questions".* FROM "questions" WHERE "questions"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:45:in `set_question'
+[31mUnpermitted parameters: :id, :created_at, :updated_at[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[36mQuestion Update (0.5ms)[0m  [1m[33mUPDATE "questions" SET "user_answer" = $1, "updated_at" = $2 WHERE "questions"."id" = $3[0m  [["user_answer", "correct"], ["updated_at", "2020-11-21 18:29:54.235152"], ["id", 2]]
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/questions_controller.rb:30:in `update'
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 1.8ms | Allocations: 4605)
+
+
