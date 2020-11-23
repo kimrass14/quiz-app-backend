@@ -1,23 +1,29 @@
 class QuestionsController < ApplicationController
+  before_action :get_category
   before_action :set_question, only: [:show, :update, :destroy]
 
   # GET /questions
   def index
-    @questions = Question.all
-
+    @questions = @category.questions
+    # @questions = Question.all
     render json: @questions
   end
 
   # GET /questions/1
   def show
+    # @question = @category.questions(params[:id])
     render json: @question
   end
 
   # POST /questions
   def create
-    @question = Question.new(question_params)
-    @question.category_id = params[:category_id]
+    @question = @category.questions.build(question_params)
+    # @question = Question.new(question_params)
+    # @question.category_id = params[:category_id]
 
+    # creates new question for the category, but throws error:
+    # NoMethodError (undefined method `question_url' at line 28
+    # https://api.rubyonrails.org/classes/ActionController/Redirecting.html#method-i-redirect_to
     if @question.save
       render json: @question, status: :created, location: @question
     else
@@ -40,9 +46,14 @@ class QuestionsController < ApplicationController
   end
 
   private
+    def get_category
+      @category = Category.find(params[:category_id])
+    end
+  
     # Use callbacks to share common setup or constraints between actions.
     def set_question
-      @question = Question.find(params[:id])
+      @question = @category.questions.find(params[:id])
+      # @question = Question.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
