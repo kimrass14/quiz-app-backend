@@ -25,6 +25,8 @@ class QuestionsController < ApplicationController
     # creates new question for the category, but throws error:
     # NoMethodError (undefined method `question_url' at line 28
     # https://api.rubyonrails.org/classes/ActionController/Redirecting.html#method-i-redirect_to
+    # changed location to @questions and WORKS
+
     if @question.save
       render json: @question, status: :created, location: @questions
     else
@@ -41,7 +43,7 @@ class QuestionsController < ApplicationController
     end
   end
 
-  # ##### RESETING QUESTIONS TO INCORRECT
+  # ##### RESETING QUESTIONS TO INCORRECT - WORKS
   # PUT /questionsreset
   def reset
     Question.update_all user_answer: "incorrect"

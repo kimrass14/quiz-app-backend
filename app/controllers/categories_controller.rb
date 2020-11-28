@@ -1,5 +1,5 @@
 class CategoriesController < ApplicationController
-  before_action :set_category, only: [:show, :update, :destroy, :reset]
+  before_action :set_category, only: [:show, :update, :destroy, :reset_category]
 
   # GET /categories
   def index
@@ -33,6 +33,7 @@ class CategoriesController < ApplicationController
     end
   end
 
+  # #### RESET ALL QUESTIONS FOR CATEGORY
   # PUT /categories/:id/reset
   def reset_category
     @category.questions.update_all user_answer: "incorrect"
