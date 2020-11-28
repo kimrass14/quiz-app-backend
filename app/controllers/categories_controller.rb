@@ -1,5 +1,5 @@
 class CategoriesController < ApplicationController
-  before_action :set_category, only: [:show, :update, :destroy]
+  before_action :set_category, only: [:show, :update, :destroy, :reset]
 
   # GET /categories
   def index
@@ -24,13 +24,23 @@ class CategoriesController < ApplicationController
     end
   end
 
-  # PATCH/PUT /categories/1
+  # PATCH/PUT /categories/:id
   def update
     if @category.update(category_params)
       render json: @category
     else
       render json: @category.errors, status: :unprocessable_entity
     end
+  end
+
+  # PUT /categories/:id/reset
+  def reset_category
+    @category.questions.update_all user_answer: "incorrect"
+  end
+
+  # PUT /categories-reset NOT WORKING - 'QUESTION' METHOD UNDEFINED
+  def reset_all
+    Category.all.question.update_all user_answer: "incorrect"
   end
 
   # DELETE /categories/1

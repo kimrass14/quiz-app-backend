@@ -1,5 +1,6 @@
 class QuestionsController < ApplicationController
-  before_action :get_category
+  # before_action :get_category
+  before_action :get_category, only: [:index, :show, :create, :update, :destroy]
   before_action :set_question, only: [:show, :update, :destroy]
 
   # GET /questions
@@ -38,6 +39,11 @@ class QuestionsController < ApplicationController
     else
       render json: @question.errors, status: :unprocessable_entity
     end
+  end
+
+  # PUT /questions-reset
+  def reset
+    Question.update_all user_answer: "incorrect"
   end
 
   # DELETE /questions/1
