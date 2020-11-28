@@ -39,9 +39,9 @@ class CategoriesController < ApplicationController
   end
 
   # PUT /categories-reset NOT WORKING - 'QUESTION' METHOD UNDEFINED
-  def reset_all
-    Category.all.question.update_all user_answer: "incorrect"
-  end
+  # def reset_all
+  #   Category.all.question.update_all user_answer: "incorrect"
+  # end
 
   # DELETE /categories/1
   def destroy

@@ -26,7 +26,7 @@ class QuestionsController < ApplicationController
     # NoMethodError (undefined method `question_url' at line 28
     # https://api.rubyonrails.org/classes/ActionController/Redirecting.html#method-i-redirect_to
     if @question.save
-      render json: @question, status: :created, location: @question
+      render json: @question, status: :created, location: @questions
     else
       render json: @question.errors, status: :unprocessable_entity
     end
@@ -41,7 +41,8 @@ class QuestionsController < ApplicationController
     end
   end
 
-  # PUT /questions-reset
+  # ##### RESETING QUESTIONS TO INCORRECT
+  # PUT /questionsreset
   def reset
     Question.update_all user_answer: "incorrect"
   end
